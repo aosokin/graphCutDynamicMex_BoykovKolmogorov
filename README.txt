@@ -1,16 +1,15 @@
 This software implements the MATLAB wrapper for Boykov-Kolmogorov max-flow/min-cut algorithm.
 
 Anton Osokin, (firstname.lastname@gmail.com)
-24.09.2014
+19.05.2013
 
 Please cite the following paper in any resulting publication:
 
 Y. Boykov and V. Kolmogorov, An experimental comparison of Min-Cut/Max-Flow algorithms for energy minimization in vision, 
-IEEE TPAMI, 26(9):1124–1137, 2004.
+IEEE TPAMI, 26(9):1124-1137, 2004.
 
-P. Kohli and P. Torr, Dynamic graph cuts for efficient
-inference in markov random fields,
-IEEE TPAMI, 29(12):2079–2088, 2007.
+P. Kohli and P. Torr, Dynamic graph cuts for efficient inference in markov random fields,
+IEEE TPAMI, 29(12):2079-2088, 2007.
 
 PACKAGE
 -----------------------------
@@ -37,5 +36,7 @@ USING THE CODE
 
 2) Run example_graphCutDynamicMex.m to check if the code works
 
-The code was tested using MSVC 2012 and MATLAB 2014a
+The code was tested under 
+- Win7-x64 using MATLAB R2014a and MSVC 2012;
+- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.3
 
