@@ -26,12 +26,14 @@ PACKAGE
 ./maxflow-v3.03.src - C++ code by Vladimir Kolmogorov (the code was slightly modified)
 http://pub.ist.ac.at/~vnk/software/maxflow-v3.03.src.zip
 
-./graphCutDynamicMex.mexw64, ./updateGraphCutDynamicMex.mexw64, ./deleteGraphCutDynamicMex.mexw64 - binary files for the MEX-functions compiled using MATLAB R2014a + MSVC 2012
+./graphCutDynamicMex.mexw64, ./updateGraphCutDynamicMex.mexw64, ./deleteGraphCutDynamicMex.mexw64 - Win_x64 binary files for the MEX-functions compiled using MATLAB R2014a + MSVC 2012
+
+./graphCutDynamicMex.mexa64, ./updateGraphCutDynamicMex.mexa64, ./deleteGraphCutDynamicMex.mexa64 - Linux_x64 binary files for the MEX-functions compiled using MATLAB R2012a + gcc-4.4
 
 USING THE CODE
 -----------------------------
 
-0) Install MATLAB and one of the supported compilers
+0) Install MATLAB and one of the supported compcdilers
 
 1) Run build_graphCutDynamicMex.m
 
@@ -39,7 +41,7 @@ USING THE CODE
 
 The code was tested under 
 - Win7-x64 using MATLAB R2014a and MSVC 2012;
-- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.3
+- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.4
 
 OTHER PACKAGES
 -----------------------------
