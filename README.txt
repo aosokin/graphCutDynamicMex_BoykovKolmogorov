@@ -33,7 +33,7 @@ http://pub.ist.ac.at/~vnk/software/maxflow-v3.03.src.zip
 USING THE CODE
 -----------------------------
 
-0) Install MATLAB and one of the supported compcdilers
+0) Install MATLAB and one of the supported compilers
 
 1) Run build_graphCutDynamicMex.m
 
